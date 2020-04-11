@@ -15,7 +15,7 @@ public:
 	void vectInt1D(vector<int>);
 
 	// 2D int vector.
-	void vectInt2D(vector<vector<int>>);
+	void vectInt2D(vector< vector<int> >);
 
 	// 1D string vector.
 	void vectStr1D(vector<string>);
@@ -33,10 +33,10 @@ public:
 	void unSetInt(unordered_set<int>);
 
 	// <string, string, int>.
-	void unmapStrUnmapStrDoub(const unordered_map<string, unordered_map<string, double>>&);
+	void unmapStrUnmapStrDoub(const unordered_map< string, unordered_map<string, double> >&);
 
 	// <string, string, vector<string>>.
-	void unmapStrUnmapStrVec1DStr(const unordered_map<string, unordered_map<string, vector<string>>>&);
+	void unmapStrUnmapStrVec1DStr(const unordered_map< string, unordered_map< string, vector<string> > >&);
 };
 
 #endif // !DISPLAY_H

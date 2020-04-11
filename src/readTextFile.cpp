@@ -3,7 +3,7 @@
 
 void readTextFile(unordered_map<string, unordered_map<string, double>>& graph) {
 	// get the filename which saved graph
-	string filename = "../../inputs/edge.txt";
+	string filename = "./inputs/edge.txt";
 
 	// read info from text file
 	ifstream file(filename, ios::in);

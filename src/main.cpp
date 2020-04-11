@@ -15,7 +15,7 @@ Display disp;
 int main()
 {
     // Read textfile from ../inputs.
-	unordered_map<string, unordered_map<string, double>> graph;
+	unordered_map< string, unordered_map<string, double> > graph;
 	readTextFile(graph);
 //	 disp.unmapStrUnmapStrDoub(graph);
 	// ----------------------------- //
@@ -26,9 +26,9 @@ int main()
 	// ----------------------------- //
 
 	// Apply Dijkstra's algorithm to find shortest path and distance for all visiting buildings.
-	unordered_map<string, unordered_map<string, double>> dists;
-	unordered_map<string, unordered_map<string, vector<string>>> paths;
-	for (string source : buildings) {
+	unordered_map<string, unordered_map<string, double> > dists;
+	unordered_map<string, unordered_map<string, vector<string> > > paths;
+	for (string& source : buildings) {
 		dijkstra(graph, source, buildings, dists, paths);
 	}
 //	disp.unmapStrUnmapStrDoub(dists);
