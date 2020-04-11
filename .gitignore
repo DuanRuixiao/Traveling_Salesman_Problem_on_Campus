@@ -15,6 +15,10 @@ out.dSYM/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+<<<<<<< HEAD
+=======
+*.code-workspace
+>>>>>>> Switched to VS Code based.
 
 # End of https://www.gitignore.io/api/visualstudiocode
 
